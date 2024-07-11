@@ -1,9 +1,15 @@
-# React + Vite
+Front End project : It contains 3 pages Calculator Ecommerce and ARemove which can be used in App.jsx by changing the imported tag.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+node_modules are required to run the project. Use "npm run dev"
 
-Currently, two official plugins are available:
+the other 2 are basic frontend having some basic features like add and remove on click and rendering a list sorting on basis of an attribute add to cart remove totalling the cost increament and decreament of quantity etc.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# calculator
+The calculator has several functions,
+1. derivative:differentiates the given function can include trignometric functions (not  log). It splits the value at d/dx and derivates the rest part , also evaluates the part before d/dx and dsiplays along with derivative.
+
+2. log and ln: both natural and common log can be used.
+
+3. power : power function will split the alue at '^' and the value before symbol is base the next in exponant
+
+4. square root: calculates the square root of value after it after doing all calculations
+
